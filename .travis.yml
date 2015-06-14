@@ -1,0 +1,10 @@
+language: c++
+
+compiler: gcc
+
+before_install:
+  - cd build
+  - cmake ..
+
+install:
+  - make
